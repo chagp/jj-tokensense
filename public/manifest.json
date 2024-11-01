@@ -1,0 +1,17 @@
+{
+  "name": "JJ's TokenSense",
+  "short_name": "TokenSense",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#1F2937",
+  "background_color": "#1F2937",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
