@@ -57,12 +57,29 @@ export default function TokenCalculator() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 p-4 text-gray-100">
       <Head>
         <title>JJ's TokenSense</title>
+        <meta name="description" content="Token burn calculator and holdings tracker" />
+        
+        {/* Standard meta tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <meta name="theme-color" content="#1F2937" />
+        
+        {/* PWA/Mobile meta tags */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="JJ's TokenSense" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        
+        {/* Icons */}
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+        <link rel="apple-touch-icon" href="/icon.svg" />
+        
+        {/* For iOS splash screens */}
+        <link href="/icon.svg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+        <link href="/icon.svg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+        <link href="/icon.svg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
       </Head>
+
       <div className="max-w-md mx-auto pt-safe-top pb-safe-bottom">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-400 inline-block">
